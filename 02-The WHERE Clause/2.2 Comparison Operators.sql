@@ -1,4 +1,4 @@
--- List of comparison operators
+-- List of comparision operators
 -- >  (Greater Than)
 -- <  (Less Than)
 -- >= (Greater Than Equals To)
@@ -8,6 +8,7 @@
 -- <> (Not Equals To)
 
 
-SELECT * 
+SELECT *
 FROM customers
-WHERE state = "VA"
+-- WHERE state = "VA"
+WHERE state != "VA"
