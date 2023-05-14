@@ -7,7 +7,8 @@ WHERE first_name REGEXP "elaka|ambur";
 
 --      last names end with EY or On
 
-SELECT * 
+
+SELECT *
 FROM customers
 WHERE last_name REGEXP "ey$|on$";
 
