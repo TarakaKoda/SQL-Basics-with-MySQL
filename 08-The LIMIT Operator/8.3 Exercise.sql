@@ -1,0 +1,5 @@
+SELECT *
+FROM customers
+WHERE phone IS NOT NULL
+ORDER BY points DESC 
+LIMIT 3
