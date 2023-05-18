@@ -1,3 +1,4 @@
+-- creating a copy table of invoices as invoices_archived
 CREATE TABLE invoices_archived
 SELECT
 	c.name,
