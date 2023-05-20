@@ -1,0 +1,13 @@
+SELECT
+	NOW(),
+    CURDATE(),
+    CURTIME(),
+    YEAR(NOW()),
+    MONTH(NOW()),
+    DAY(NOW()),
+    HOUR(NOW()),
+    MINUTE(NOW()),
+    SECOND(NOW()),
+    UPPER(DAYNAME(NOW())),
+    LOWER(MONTHNAME(NOW())),
+    EXTRACT(DAY FROM NOW())
